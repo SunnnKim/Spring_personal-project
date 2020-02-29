@@ -1,8 +1,9 @@
 
-# Created by https://www.gitignore.io/api/java,macos,eclipse,java-web
-# Edit at https://www.gitignore.io/?templates=java,macos,eclipse,java-web
+# Created by https://www.gitignore.io/api/java,macos,windows,eclipse
+# Edit at https://www.gitignore.io/?templates=java,macos,windows,eclipse
 
 ### Eclipse ###
+build/
 .metadata
 bin/
 tmp/
@@ -10,6 +11,7 @@ tmp/
 *.bak
 *.swp
 *~.nib
+src/DB/
 local.properties
 .settings/
 .loadpath
@@ -96,10 +98,6 @@ local.properties
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-### Java-Web ###
-## ignoring target file
-target/
-
 ### macOS ###
 # General
 .DS_Store
@@ -128,4 +126,33 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.gitignore.io/api/java,macos,eclipse,java-web
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.gitignore.io/api/java,macos,windows,eclipse
+
+
+
