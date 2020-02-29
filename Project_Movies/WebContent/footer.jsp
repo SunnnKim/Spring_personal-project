@@ -3,7 +3,7 @@
 
 
 
-<h1 style="color:#fff">foottttter</h1>
+<h1 style="color:#fff">footer</h1>
 
 </body>
 </html>
