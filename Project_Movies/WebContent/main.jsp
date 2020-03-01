@@ -39,7 +39,7 @@
         </ul>
     </div>
     <div class="img">
-        <img src="./images/logo.png">
+        <img src="${pageContext.request.contextPath}/images/logo.png">
     </div> 
 </div>
 
@@ -47,24 +47,45 @@
 	<div class="top-content">
 		<p>BOX OFFICE</p>
 	</div>
-	
+	<div class="depth2">
+		<ul>
+			<li>예매율순</li>
+			<li>관람객순</li>
+			<li>평점순</li>
+		</ul>
+	</div>
+	<div class="movies">
+		<div class="img">
+			<img alt="영화표지" src="http://img.cgv.co.kr/Movie/Thumbnail/Poster/000083/83126/83126_320.jpg">
+		</div>
+	</div>
 
 </div><!-- content-box  -->
 
 <!-- Schedule-box -->
 <div class="schedule-box">
 	<div class="top-content">
-		<p>SCHEDULE</p>
+		<p>RESERVATION</p>
 	</div>
 	<div class="mid-content">
 		<div class="search">
 			<input type="text" value="12" maxlength="50">
+			<a href="#">
+				<i class="fas fa-search"></i>
+			</a>
 		</div>
-		<div class="sch-icon">
-			<i class="far fa-calendar-alt"></i>
-		</div>
+		<div class="btm-line">영화 제목으로 검색하기</div>
 	</div>
+	<div class="btm-content">
+		<div class="sch-icon">
+			<a href="#">
+				<i class="far fa-calendar-alt"></i>
+			</a>
+		</div>
 	
+		<div class="btm-line2">영화 일정보기</div>
+	
+	</div>
 	
 	
 	
@@ -89,7 +110,7 @@
             <li>윤리경영</li>
         </ul>
         <div class="footer_logo">
-            <img src="./images/logo.png" alt="logo"/>
+            <img src="${pageContext.request.contextPath}/images/logo.png" alt="logo"/>
         </div>
         <p>
             <strong>Movie Picker</strong> 서울특별시 서초구 서초4동 강남대로 459<br>
