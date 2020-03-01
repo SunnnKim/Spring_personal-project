@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<link rel="stylesheet" href="./css/header.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/header.css">
 <script src="https://kit.fontawesome.com/a9726fbbf3.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 <body>
@@ -34,4 +34,7 @@
         <img src="./images/logo.png">
     </div> 
 </div>
+
+<div class="content-box">
+
 
